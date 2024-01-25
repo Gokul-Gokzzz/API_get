@@ -34,28 +34,28 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         Text(
                           'User Id: ${samplePost[index].userId} ',
-                          style: TextStyle(fontSize: 18),
+                          style: const TextStyle(fontSize: 18),
                         ),
                         Text(
                           'Id: ${samplePost[index].id}  ',
-                          style: TextStyle(fontSize: 18),
+                          style: const TextStyle(fontSize: 18),
                         ),
                         Text(
                           'Title:${samplePost[index].title} ',
                           maxLines: 1,
-                          style: TextStyle(fontSize: 18),
+                          style: const TextStyle(fontSize: 18),
                         ),
                         Text(
                           'Body: ${samplePost[index].body}  ',
                           maxLines: 1,
-                          style: TextStyle(fontSize: 18),
+                          style: const TextStyle(fontSize: 18),
                         ),
                       ],
                     ),
                   );
                 });
           } else {
-            return Center(
+            return const Center(
               child: CircularProgressIndicator(),
             );
           }

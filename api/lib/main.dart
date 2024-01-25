@@ -15,6 +15,8 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blue,
+          title: Text('API GET'),
+          centerTitle: true,
         ),
         body: const HomePage(),
       ),
